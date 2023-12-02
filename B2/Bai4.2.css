@@ -1,0 +1,17 @@
+ body {
+    background-color: rgb(196, 185, 207);
+  }
+    html {
+    overflow: auto;
+    }
+h1{
+    text-align: center;
+}
+img {
+    width: 15%;
+    height: 20%;
+    opacity: 80%
+}
+img:hover {
+    opacity:100%;
+}
