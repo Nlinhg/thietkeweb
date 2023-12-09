@@ -1,0 +1,259 @@
+
+
+.bod {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(236, 244, 244);
+  margin-left: 200px;
+  margin-right: 200px;
+  box-shadow: #a2a2a2;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .bod {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bod {
+    font-size: 12px;
+    padding: 5px;
+  }
+}
+.container {
+  border-radius: 10px 10px 0 0; /* Bo góc trên cùng */
+  position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 9999;
+transition: transform 0.3s; /* Hiệu ứng chuyển đổi */
+  display: flex;
+  align-items: center;
+  max-width: auto;
+  margin:  auto;
+  padding: 20px;
+  background-color: #e6b3b3;
+  color: black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 0px;
+}
+.container img {
+  margin-right: 10px; /* Khoảng cách từ ảnh sang phải */
+}
+header {
+  background-color: #f8f8f8;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(242, 246, 246);
+  border: 2px solid rgb(199, 145, 145); /* Điều chỉnh đường viền khung tùy ý */
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #e18383;
+}
+
+
+.menu {
+  
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+}
+.menu li a:hover{
+  color:rgb(128, 226, 193);
+}
+
+.menu-icon {
+  display: none;
+  width: 30px;
+  height: 30px;
+  background-image: url('menu-icon.png');
+  background-size: cover;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 168px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  #menu-toggle:checked ~ .menu {
+    display: flex;
+  }
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  
+}
+
+.image-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.info-container {
+  flex: 1;
+  padding: 20px;
+ 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.body1 {
+  display: flex;
+  justify-content: space-between;
+}
+.col1 {
+  border-radius: 27px;
+  width: 240px;
+  height:200px;
+  overflow: hidden;
+}
+.cok{
+ padding: 5px
+}
+.col1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cắt ảnh để đạt kích thước như đã định */
+}
+.col2 p{
+ font-size:15px;
+}
+.col2{
+  border-radius: 27px;
+  width: 240px;
+  height:300px;
+  /* background-color:rgb(157, 227, 227); */
+  text-align: center;
+  font-size: 15px;
+}
+
+/* tạo 2 khung ảnh */
+.col3 {
+  border-radius: 27px;
+  width: 370px;
+  height:200px;
+  overflow: hidden;
+}
+.cok{
+ padding: 5px
+}
+.col3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cắt ảnh để đạt kích thước như đã định */
+}
+.col4 p{
+ font-size:15px;
+}
+.col4{
+  border-radius: 27px;
+  width: 370px;
+  height:250px;
+  /* background-color:rgb(157, 227, 227); */
+  text-align: center;
+  font-size: 15px;
+}
+
+.box {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex-basis: 45%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid rgb(199, 145, 145);
+  height: 500px;
+  border-radius: 10px;
+}
+.contain {
+  display: flex;
+  border: 2px;
+}
+.circle-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.circle-frame {
+  width: 500px;
+  height: 650px;
+  border-radius: 50% / 100% 100% 0 0;
+  background-color: #edcccc;
+  text-align: centerrgb(226, 195, 195);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(33.33% - 10px);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.circle-frame img {
+  width: 540px;
+  height: 590px;
+  border-radius: 50% / 100% 100% 0 0;
+  object-fit: cover;
+}
+
+.circle-frame p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+.left-side, .right-side {
+  flex: 1;
+  height: 400px;
+}
+.left-side{
+  background-color: rgb(236, 244, 244);
+}
+.right-side{
+  background-color: rgb(242, 234, 223);
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 0 0 10px 10px; 
+}
