@@ -1,0 +1,300 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Open Sans', cursive;
+}
+.body1 {
+  max-width: 1000px;
+  height: 700px;
+  background-image: url("anhnen1.jpg");
+  color:white;
+  text-align: left;
+}
+.body1 img{
+  display: flex;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  flex-grow: 1;
+}
+
+.search-button {
+  background-color: #f1f1f1;
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+}
+.menu {
+  font-size: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  right: 200px;
+  cursor: pointer;
+  font-family: "Times New Roman", serif;
+}
+.menu h2{
+  font-size: 80px;
+  font-family: 'Water Brush', cursive;
+}
+
+.menu li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+}
+.item {
+  position: relative;
+  overflow: hidden;
+}
+
+.col4{
+  border-radius: 10px;
+  width: 900px;
+  height:500px;
+  overflow: hidden;
+}
+
+.col5{
+  border-radius: 10px;
+  width: 450px;
+  height:400px;
+  overflow: hidden;
+}
+.col5 img {
+  width: 150%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.col6{
+  margin-left: 20px;
+  width:400px;
+  height:400px;
+  overflow: hidden;
+
+}
+.col6 p{
+  font-size:18px;
+}
+
+.bod {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px
+}
+
+.body2{
+  max-width: 900px;
+  height: 300px;
+  display: flex;
+  color:rgb(0, 0, 0);
+  text-align: center;
+}
+.body2 .item {
+  text-align: center;
+}
+.body2 h2{
+  font-size: 60px;
+  font-family: 'Water Brush', cursive;
+}
+.body3{
+  max-width: 1000px;
+  height: 300px;
+  display: flex;
+  color:rgb(0, 0, 0);
+  text-align: center;
+}
+.body3 .item {
+  text-align: center;
+}
+.body3 h2{
+  font-size: 60px;
+  font-family: 'Water Brush', cursive;
+}
+.body3 img{
+  display: flex;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.body4 {
+  border-radius: 50px;
+    max-width: 150px;
+    margin: 20px auto;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.col9{
+  border-radius: 10px;
+  width: 600px;
+  height:350px;
+  overflow: hidden;
+
+  float: left;
+}
+.col7{
+  border-radius: 10px;
+  width: 200px;
+  height:300px;
+  overflow: hidden;
+  float: right;
+  font-size:15px;
+}
+.container{
+  border-radius: 50px;
+  max-width: 100px;
+  margin: 20px auto;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+.col7 p{
+  font-size:17px;
+}
+
+.col8{
+  border-radius: 10px;
+  width: 190px;
+  height:140px;
+  overflow: hidden;
+}
+.col8 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.header{
+  margin-top: 20px;
+  background-color: #0a0a0a;
+  color: rgb(250, 249, 249);
+  height: 350px;  
+  width: 1000px;         
+  overflow: hidden;                  
+} 
+h1{
+  font-family: 'Water Brush', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+.header .text1 {
+  padding-left: 50px;
+  padding-right: 30px;
+  width: 50%;
+ 
+}
+.header .text2 {
+padding-right: 50px;
+padding-left: 30px;
+  width: 50%; 
+}
+.con1{
+  border-radius: 10px;
+    max-width: 120px;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
+.cot1 {
+display: flex;
+height: 150px;
+justify-content: space-between;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-frame,
+.bottom-frame {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-frame {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.text-frame {
+  flex: 1;
+}
+
+.read-more-frame {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: fit-content;
+  align-self: flex-end;
+  margin-top: 10px;
+}
+
+.circle-frame {
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+.bod1 {
+  max-width: 1000px;
+  height: 600px;
+  background-image: url("anhnen1.jpg");
+  color:white;
+  text-align: left;
+}
+.bo2{
+  text-align: center;
+}
+.bod2{
+  height: 500px;
+  background-color: #000000;
+  text-align: center;
+  color: white;
+}
+.container10 {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
