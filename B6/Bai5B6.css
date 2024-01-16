@@ -1,0 +1,42 @@
+.chua {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+#meo {
+    width: 800px; /* Đặt kích thước cố định cho ảnh */
+    height: 800px;
+    object-fit: cover; /* Đảm bảo ảnh không bị méo khi kích thước thay đổi */
+    border: 2px solid rgb(167, 163, 163); /* Thêm đường viền */
+    box-shadow: 0px 0px 5px rgb(227, 225, 225); /* Thêm hiệu ứng bóng */
+    padding: 10px; /* Thêm khoảng đệm để tạo khung */
+}
+
+#next,
+#back {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border: none;
+}
+
+#next {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#back {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}

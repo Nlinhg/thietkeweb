@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: white;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <p>Đổi màu tôi đi</p>
+    <input type="button" value="Xanh" onclick="changeBackgroundColor()">
+    
+    <script>
+        function changeBackgroundColor() {
+            var body = document.getElementsByTagName("body")[0];
+            body.style.backgroundColor = "aqua";
+        }
+    </script>
+</body>
+</html>

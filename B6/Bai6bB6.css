@@ -1,0 +1,14 @@
+.red-text {
+    color: rgb(239, 85, 85);
+}
+body{
+        background-color: rgb(238, 229, 229);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+}
+
+    .container {
+        text-align: center;
+    }
